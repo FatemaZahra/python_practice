@@ -76,3 +76,28 @@ while i < 6:
   if i == 3:
     continue #stop current iteration and continue with the next
   print(i)
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+# for loops
+# list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+  print(fruit)
+
+#string
+for letter in "banana":
+  print(letter)
+
+#use of break
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+  print(fruit)
+  if fruit == "banana":
+    break #stops the loop before it has looped through all items
+
