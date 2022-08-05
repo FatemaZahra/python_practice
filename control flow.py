@@ -112,3 +112,14 @@ for fruit in fruits:
   if fruit == "banana":
     continue
   print(fruit)
+
+# nested loops
+adjs = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for adj in adjs:
+  for fruit in fruits:
+    print(adj, fruit)
+
+for x in [0, 1, 2]:
+  pass
