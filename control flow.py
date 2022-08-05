@@ -101,3 +101,14 @@ for fruit in fruits:
   if fruit == "banana":
     break #stops the loop before it has looped through all items
 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break # does not print banana
+  print(x)
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+  if fruit == "banana":
+    continue
+  print(fruit)
