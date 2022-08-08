@@ -12,7 +12,7 @@ pip3 install requests
 - import requests
 - import json
 
-## Basic code to fetch response from API in Python
+## Example code to fetch response from API in Python
 
 ```python
 response = requests.get("https://pokeapi.co/api/v2/pokemon/ditto")
