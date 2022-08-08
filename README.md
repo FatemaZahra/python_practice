@@ -18,4 +18,4 @@ pip3 install requests
 - Paste the API
 - A JSON response is sent back
 
-![](../../../../var/folders/1g/_41jdts53y33wwr8950265gw0000gn/T/TemporaryItems/NSIRD_screencaptureui_3LHTbQ/Screenshot 2022-08-08 at 15.47.45.png)
+<img width="1060" alt="Screenshot 2022-08-08 at 16 04 15" src="https://user-images.githubusercontent.com/102330725/183449846-aab7f49b-a1f8-45cc-9834-8be0a8d7870a.png">
