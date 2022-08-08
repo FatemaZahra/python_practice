@@ -1,6 +1,9 @@
 # API (Application Programming Interface)
 ## REST API - Representational State Transfer Application Programming Interface
 
+An application programming interface (API) is a set of tools, definitions and protocols that a developer can use for interacting with a piece of software.
+To use APIs in Python:
+
 - install request
 ```python
 pip3 install requests
