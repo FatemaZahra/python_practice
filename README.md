@@ -36,3 +36,22 @@ for data in response.json()['abilities']:
 - A JSON response is sent back
 
 <img width="1060" alt="Screenshot 2022-08-08 at 16 04 15" src="https://user-images.githubusercontent.com/102330725/183449846-aab7f49b-a1f8-45cc-9834-8be0a8d7870a.png">
+
+### Use Postcode API to check if the Postcode enter by a user is a Valid Postcode
+
+```python
+import requests
+import json
+
+#Verify postcode entered by user is valid or invalid
+
+user_input = input("Please enter your Postcode")
+
+postcode_response = requests.get(f"https://api.postcodes.io/postcodes/{user_input}")
+# print(postcode_response.json()) --> to check if the response is working
+
+if postcode_response.json()['status'] == 200:
+    print("Valid postcode")
+else:
+    print("Invalid postcode")
+```
